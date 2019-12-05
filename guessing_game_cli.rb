@@ -1,4 +1,4 @@
-def guessing_game
+def run_guessing_game
 computer_number = rand(6) + 1
   puts "Pick a number between 1 and 6."
   user_number = gets.chomp 
